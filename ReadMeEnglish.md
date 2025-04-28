@@ -68,24 +68,19 @@ Launching the game with unpacked resources normally requires developer mode (see
 1.  Go to the [OpenJones3D](https://github.com/smlu/OpenJones3D) repository page.
 2.  Download the latest release (usually a zip archive). Or you can download the latest version via `Releases`.
 3.  **Extract the contents of the downloaded archive** directly into your game's `Resource` folder, agreeing to replace files.
-
-*   **Changed:** Comma to semicolon (`;`) before "otherwise". This connects two closely related independent clauses where a semicolon is appropriate.
-*   **Added:** Comma after "otherwise".
-*   **Changed:** "highly required" -> "highly recommended". "Highly required" is awkward phrasing. "Highly recommended" is standard and fits the context (it's not strictly *required* if dev mode is an option, but it's the practical solution).
-*   **Removed:** Duplicate "you".
-
+   
 ### Step 3: Patching the Executable (Downgrade)
 
 OpenJones3D requires the original game executable (`Indy3D.exe`) to be downgraded to version 1.0.
 
 1.  **Find the downgrade files:** Within the files of this repository, there should be a folder called `downgrade-file` containing `.bps` files. Downloading them depends on where you bought the game (`Steam` or `GOG`).
 2.  **Go to the RomPatcher.js website:** [https://www.marcrobledo.com/RomPatcher.js/](https://www.marcrobledo.com/RomPatcher.js/)
-3.  In the "ROM file" field (top), upload your **original** `Indy3D.exe` file from your game's **`Resource`** folder.
+3.  In the "ROM file" field (top), upload your **original** `Indy3D.exe` file from your game's `Resource` folder.
 4.  In the "Patch file" field (bottom), upload the downloaded `.bps` patch file.
-5.  Click the **"Apply patch"** button. The site will prompt you to download the patched file.
+5.  Click the "Apply patch" button. The site will prompt you to download the patched file.
 6.  **Save** the downloaded file.
 7.  **Rename** the downloaded patched file to `Indy3D.exe`.
-8.  **Copy** this renamed `Indy3D.exe` into the **`Resource`** folder of your game, **replacing** the existing file there. *You can delete the old `Indy3D.exe` or keep it as a backup.*
+8.  **Copy** this renamed `Indy3D.exe` into the `Resource` folder of your game, **replacing** the existing file there. *You can delete the old `Indy3D.exe` or keep it as a backup.*
 
 **⚠️ IMPORTANT:** Ensure the new, patched file is named exactly `Indy3D.exe` and is located in the **`Resource`** folder. Otherwise, OpenJones might not recognize it. You should now launch the game via `Jones3D.exe` located in the `Resource` folder.
 
@@ -97,7 +92,7 @@ Even with OpenJones, you might encounter long loading times or freezes. This is 
 2.  **Install:** Follow the instructions for installing dgVoodoo for Infernal Machine. An excellent guide is available in the Steam Community:
     [dgVoodooCpl Installation Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3281746272)
     *   *Briefly: Copy `dgVoodooCpl.exe`, `dgVoodoo.conf`, and the files from the `MS\x86` folder of the dgVoodoo archive into the `Resource` folder.*
-3.  **Configure:** You can use my `dgVoodoo.conf` configuration file, which is included in the `dgvoodoocpl-config*` folder; copy it to the `Resource` folder, replacing the existing one, or configure the settings yourself using `dgVoodooCpl.exe`.
+3.  **Configure:** You can use my `dgVoodoo.conf` configuration file, which is included in the `dgvoodoocpl-config` folder; copy it to the `Resource` folder, replacing the existing one, or configure the settings yourself using `dgVoodooCpl.exe`.
 
 **Result:** After completing these steps, the game should launch via `Jones3D.exe` (in the `Resource` folder), utilize OpenJones3D, display the enhanced textures, and run significantly faster and more stably thanks to dgVoodoo.
 
