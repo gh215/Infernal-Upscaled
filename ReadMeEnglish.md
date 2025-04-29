@@ -98,6 +98,10 @@ Even with OpenJones, you might encounter long loading times or freezes. This is 
 
 ---
 
+**⚠️ VERY IMPORTANT:** Please check the ndy folder in `Resource`, and if there are still `.cnd` files, your mod will only work for 0.1%, as the game still uses old textures from `.cnd` files. Indy3DModInstaller since version 2.2 allows you to safely and correctly extract `.cnd` files to `.ndy`.
+
+---
+
 ## Tools and Acknowledgements
 
 This mod and its installation were made possible thanks to the following tools and individuals:
