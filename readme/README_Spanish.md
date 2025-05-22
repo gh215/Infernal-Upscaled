@@ -75,7 +75,7 @@ El inicio estándar del juego con los recursos desempaquetados solo es posible e
 2.  Descarga la última versión (generalmente es un archivo zip). O puedes descargar la última versión a través de `Releases`.
 3.  **Extrae el contenido del archivo descargado** directamente en la carpeta `Resource`, aceptando reemplazar los archivos.
 
-**⚠️ ¡CUIDADO! ¡BUG!:** *No copies* el archivo `gen_fadeplate.3do` del archivo en la carpeta `Resource/mat` de tu juego.** Este archivo puede causar un bug en el que los bordes de la pantalla mueven a tu Jones. No estoy bromeando, en uno de los niveles podría simplemente tirarlo abajo.
+**⚠️ ¡CUIDADO! ¡BUG!:** *No copies* el archivo `gen_fadeplate.3do` del archivo en la carpeta `Resource/mat` de tu juego. Este archivo puede causar un bug en el que los bordes de la pantalla mueven a tu Jones. No estoy bromeando, en uno de los niveles podría simplemente tirarlo abajo.
 
 ### Paso 3: Parcheo del Archivo Ejecutable (Downgrade)
 
@@ -84,7 +84,7 @@ El inicio estándar del juego con los recursos desempaquetados solo es posible e
 OpenJones3D requiere que el archivo ejecutable original del juego (`Indy3D.exe`) sea degradado (downgraded) a la versión 1.0.
 
 1.  **Encuentra los archivos para el downgrade:** En los archivos de este repositorio debería haber una carpeta `downgrade-file` que contiene archivos `.bps`. **La elección del archivo `.bps` correcto** depende de dónde compraste el juego (`Steam` o `GOG`).
-2.  **Ve al sitio web RomPatcher.js: [https://www.marcrobledo.com/RomPatcher.js/](https://www.marcrobledo.com/RomPatcher.js/)
+2.  **Ve al sitio web RomPatcher.js:** [https://www.marcrobledo.com/RomPatcher.js/](https://www.marcrobledo.com/RomPatcher.js/)
 3.  En el campo "ROM file" (arriba), carga tu archivo `Indy3D.exe` **original** de la carpeta `Resource`.
 4.  En el campo "Patch file" (abajo), carga el archivo de parche `.bps` **correspondiente a la versión de tu juego**.
 5.  Haz clic en el botón "Apply patch". El sitio te ofrecerá descargar el archivo parcheado.
