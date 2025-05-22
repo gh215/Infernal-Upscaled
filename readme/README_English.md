@@ -75,7 +75,7 @@ Standard game launch with unpacked resources is only possible in developer mode 
 2.  Download the latest version (usually a zip archive). Alternatively, you can download the latest version via `Releases`.
 3.  **Extract the contents of the downloaded archive** directly into the `Resource` folder, agreeing to replace files.
 
-**⚠️ CAUTION! BUG!:** *Do not copy* the `gen_fadeplate.3do` file from the archive into your game's `Resource/mat` folder.** This file can cause a bug where the screen borders move your Jones. I'm not kidding - on one of the levels, it might just push him off.
+**⚠️ CAUTION! BUG!:** *Do not copy* the `gen_fadeplate.3do` file from the archive into your game's `Resource/mat` folder. This file can cause a bug where the screen borders move your Jones. I'm not kidding - on one of the levels, it might just push him off.
 
 ### Step 3: Patching the Executable File (Downgrade)
 
@@ -84,7 +84,7 @@ Standard game launch with unpacked resources is only possible in developer mode 
 OpenJones3D requires the original game executable file (`Indy3D.exe`) to be downgraded to version 1.0.
 
 1.  **Find the downgrade files:** In this repository's files, there should be a `downgrade-file` folder containing `.bps` files. **The choice of the correct `.bps` file** depends on where you bought the game (`Steam` or `GOG`).
-2.  **Go to the RomPatcher.js website: [https://www.marcrobledo.com/RomPatcher.js/](https://www.marcrobledo.com/RomPatcher.js/)
+2.  **Go to the RomPatcher.js website:** [https://www.marcrobledo.com/RomPatcher.js/](https://www.marcrobledo.com/RomPatcher.js/)
 3.  In the "ROM file" field (top), upload your **original** `Indy3D.exe` file from the `Resource` folder.
 4.  In the "Patch file" field (bottom), upload the `.bps` patch file **corresponding to your game version**.
 5.  Click the "Apply patch" button. The site will offer to download the patched file.
